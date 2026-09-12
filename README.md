@@ -17,6 +17,3 @@ BackgroundRemover.removeBackground(dataUrl, function(transparentPngUrl) {
     // Save transparentPngUrl to database
 });
 ```
-
-## Workflow Integration
-Background removal is performed **at upload time in the Admin Panel** when creating or updating a user. The processed transparent photo is stored directly in the database so frontend pages can render transparent profile cutouts without runtime processing overhead on page loads.
